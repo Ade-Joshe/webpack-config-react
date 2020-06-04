@@ -1,0 +1,36 @@
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+#sideNav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+}
+
+#header {}
+
+#right {
+    width: calc(100% - 250px);
+}
+
+#sideNav_profile>img {
+    width: 50px;
+    height: 50px;
+}
+
+#sideNav_profile>div>p {
+    margin-bottom: 0;
+}
+
+#sideNav_profile>div>p:first-child {
+    font-size: 14px;
+}
+
+#sideNav_profile>div>p:nth-child(2) {
+    font-size: 11px;
+}
